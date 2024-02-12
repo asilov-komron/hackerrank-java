@@ -1,0 +1,23 @@
+import java.util.Locale;
+import java.util.Scanner;
+import java.text.NumberFormat;
+
+
+public class Solution {
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double payment = scanner.nextDouble();
+        scanner.close();
+
+        // Write your code here.
+        NumberFormat.getCurrencyInstance(Locale.US);
+        
+        
+        
+        System.out.println("US: " + "");
+        System.out.println("India: " + "");
+        System.out.println("China: " + "");
+        System.out.println("France: " + "");
+    }
+}
